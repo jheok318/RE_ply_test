@@ -324,7 +324,39 @@ None
 
 >  class 단어의 앞뒤에 whitespace가 하나라도 있는 경우에는 매치가 안 되는 것을 확인할 수 있다.
 
-
+<hr/>
 
 ## ply
+
+<img src="img/01.png" alt="01" style="zoom:67%;" />
+
+### Lexer란?
+
+- **Lexer :** 소스 코드를 받아서 token들로 바꾼다.
+
+>  lexer는 lexical analysis를 합니다. 
+>
+> 직역하면 ‘어휘 분석’ 이다. 
+>
+> 좀 더 풀어서 설명하면 lexer는 텍스트를 받아서 한 글자 한 글자 읽어나가다가 의미를 가진 단어를 만나면 lexer에서는 그 단어를 전체 텍스트로부터 잘라서 token이란 것을 만든다.
+
+<img src="img/02.png" alt="02" style="zoom:50%;" />
+
+### Token이란?
+
+- token은 단어를 구조적으로 표현할 수 있게 도와주는 구조체라고 볼 수 있다.
+
+### Parser란?
+
+- **Parser :** token들을 받아서 AST(Abstract Syntax Tree)로 바꾼다.
+
+> parser는 input 데이터를 가지고 그것을 구조적으로 나타낼 수 있게 해준다.
+>
+> 또한 데이터를 구조적으로 바꾸는 과정에서 주어진 input 데이터가 올
+>
+> 바른지 검증도 하게된다.
+
+<img src="img/03.png" alt="03" style="zoom: 50%;" />
+
+
 
